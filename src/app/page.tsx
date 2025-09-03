@@ -1,15 +1,22 @@
 import React from 'react'
-import Image from 'next/image'
+import Image from 'next/image';
+
 const page = () => {
   return (
     <div>
       <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-  <Image src="/logo.png" alt="Site logo" width={200} height={100} />
+  <Image 
+  src="/your-image.png" 
+  alt="description" 
+  width={500} 
+  height={300} 
+/>
+
   <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
     <blockquote>
       <p className="text-lg font-medium">
         “Tailwind CSS is the only framework that I've seen scale
-        on large teams. It’s easy to customize, adapts to any design,
+        on large teams. Its easy to customize, adapts to any design,
         and the build size is tiny.”
       </p>
     </blockquote>
